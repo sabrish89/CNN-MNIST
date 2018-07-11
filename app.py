@@ -85,8 +85,9 @@ def predict():
 
 if __name__ == "__main__":
 	#decide what port to run the app in
-	port = int(os.environ.get('PORT', 5000))
+	##port = int(os.environ.get('PORT', 5000))
 	#run the app locally on the givn port
-	app.run(host='0.0.0.0', port=port)
+	##app.run(host='0.0.0.0', port=port)
 	#optional if we want to run in debugging mode
 	#app.run(debug=True)
+	app.run(debug=True, use_reloader=True)
