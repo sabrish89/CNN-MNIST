@@ -13,7 +13,7 @@
 	context.lineWidth = 10;
     context.lineJoin = context.lineCap = 'round';
 	
-	debug();
+	//debug();
 
 	canvas.addEventListener( "mousemove", function( e )
 	{
